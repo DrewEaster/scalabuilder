@@ -1,0 +1,12 @@
+apply plugin: 'scala'
+apply plugin: 'maven'
+
+version = '0.1'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.scala-lang:scala-library:2.11.5'
+}
