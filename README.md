@@ -1,6 +1,6 @@
 # Scala Builder
 
-Scala Builder provides a _very_ simple trait `BuilderSupport` to facilitate a clean syntax when using the [Builder Pattern](http://en.wikipedia.org/wiki/Builder_pattern) in Scala applications.
+Scala Builder provides a _very_ simple trait `BuilderSupport` to facilitate a clean syntax when using the [Builder Pattern](http://en.wikipedia.org/wiki/Builder_pattern) in Scala applications. Scala Builder improves the readability of code that utilises the Builder Pattern.
 
 Usage
 -----
