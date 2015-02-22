@@ -1,6 +1,6 @@
 # Scala Builder
 
-Scala Builder provides a _very_ simple trait `BuilderSupport` to facilate a clean syntax when using the [Builder Pattern](http://en.wikipedia.org/wiki/Builder_pattern) in Scala applications.
+Scala Builder provides a _very_ simple trait `BuilderSupport` to facilitate a clean syntax when using the [Builder Pattern](http://en.wikipedia.org/wiki/Builder_pattern) in Scala applications.
 
 Usage
 -----
@@ -54,4 +54,4 @@ object MyApp extends App with BuilderSupport {
 }
 ```
 
-You can see the benefits here of not needing to explicitly call `build()` on `PersonBuilder` when adding a `Person` to the address book. `BuilderSupport` provides an implicit conversion to faciliate this, thus removing verbose boilerplate.
+You can see the benefits here of not needing to explicitly call `build()` on `PersonBuilder` when adding a `Person` to the address book. `BuilderSupport` provides an implicit conversion to facilitate this, thus removing verbose boilerplate.
