@@ -54,4 +54,4 @@ object MyApp extends App with BuilderSupport {
 }
 ```
 
-You can see the benefits here of not needing to explicitly call `get()` on `PersonBuilder` when adding a `Person` to the address book. `BuilderSupport` provides an implicit conversion to facilitate this, thus removing verbose boilerplate, and significantly increasing readability.
+You can see the benefits here of not needing to explicitly call `get()` on `PersonBuilder` when adding a `Person` to the address book. `BuilderSupport` provides an implicit conversion to facilitate this, thus removing verbose boilerplate.
